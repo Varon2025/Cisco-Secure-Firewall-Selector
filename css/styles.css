@@ -1,0 +1,63 @@
+
+:root{
+  --bg:#0b0d12; --card:#11151f; --muted:#667085; --text:#e6e9ef; --brand:#15a3ff;
+  --accent:#0ea5e9; --line:#1f2533; --ok:#12b981; --warn:#f59f0b; --err:#ef4444;
+}
+*{ box-sizing:border-box }
+html,body{ height:100% }
+body{
+  margin:0; font: 14px/1.5 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Arial, "Apple Color Emoji","Segoe UI Emoji";
+  background:linear-gradient(180deg, #0b0d12 0%, #0e1422 100%); color:var(--text);
+}
+h1,h2,h3{ margin:0 0 .5rem 0 }
+a{ color:var(--brand); text-decoration:none }
+.app-header{
+  display:flex; align-items:center; justify-content:space-between;
+  padding:16px 20px; border-bottom:1px solid var(--line); position:sticky; top:0; backdrop-filter: blur(8px);
+  background:rgba(11,13,18,.72);
+}
+.app-footer{
+  padding:24px; color:#9aa3b2; text-align:center;
+}
+.brand{ display:flex; align-items:center; gap:10px }
+.brand .dot{ width:12px; height:12px; border-radius:999px; background:var(--brand); box-shadow:0 0 0 6px rgba(21,163,255,.12) }
+.container{ max-width:1200px; margin:20px auto; padding:0 16px; display:grid; gap:16px }
+.card{
+  background:var(--card); border:1px solid var(--line); border-radius:16px; padding:16px; box-shadow: 0 6px 30px rgba(0,0,0,.25);
+}
+.filters-grid{ display:grid; gap:12px; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.filters-actions{ display:flex; align-items:center; justify-content:space-between; margin-top:10px }
+.field{ display:flex; flex-direction:column; gap:6px }
+input[type="text"], input[type="number"], select{
+  padding:10px 12px; background:#0c111b; color:var(--text); border:1px solid var(--line); border-radius:10px; outline:none;
+}
+input[type="range"]{ width:100% }
+.range-value{ font-size:12px; color:#b7c0cf }
+.btn{
+  padding:10px 14px; background:var(--brand); color:#051021; border:none; border-radius:12px; cursor:pointer; font-weight:600;
+  box-shadow:0 8px 18px rgba(21,163,255,.25);
+}
+.btn.ghost{ background:transparent; color:var(--text); border:1px solid var(--line) }
+.btn.xs{ padding:6px 10px; font-size:12px }
+.count{ font-weight:600; color:#b7c0cf }
+.results .table-wrap{ overflow:auto; border:1px solid var(--line); border-radius:12px }
+table{ width:100%; border-collapse:collapse }
+th, td{ padding:10px 12px; border-bottom:1px solid var(--line) }
+th{ text-align:left; color:#b7c0cf; font-weight:600; background:#0c111b; position:sticky; top:0 }
+tr:hover td{ background:#0e1420 }
+.compare-grid{ display:grid; grid-template-columns: 1fr 1fr; gap:16px }
+.pane-head{ display:flex; align-items:center; justify-content:space-between; margin-bottom:8px }
+.pane-field{ margin:8px 0 }
+.pane-field.inline{ display:flex; align-items:center; justify-content:space-between; gap:10px }
+.chipset label{ display:inline-flex; align-items:center; gap:6px; padding:6px 10px; border:1px solid var(--line); border-radius:999px; margin-right:8px; background:#0c111b }
+.price-table{ margin-top:10px; }
+.price-table tfoot td{ font-weight:700 }
+.price-table .total td{ background:#0c111b }
+.note{ font-size:12px; color:#8d98ab; margin-top:8px }
+.discounts summary{ cursor:pointer; padding:8px 0; color:#c7d0df }
+.discount-grid{ margin-top:8px; display:grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap:10px }
+.header-actions{ display:flex; gap:8px; align-items:center }
+@media (max-width: 900px){
+  .filters-grid{ grid-template-columns:1fr }
+  .compare-grid{ grid-template-columns:1fr }
+}

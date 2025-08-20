@@ -1,0 +1,1846 @@
+{
+  "meta": {
+    "name": "Cisco Secure Firewall Selector",
+    "source_excel": "Calculette Firewall V2 unprotected.xlsx",
+    "license_terms_supported": [
+      1,
+      3,
+      5
+    ],
+    "currency": "USD (GPL list)",
+    "discount_defaults": {
+      "hw": 0.6,
+      "sw": 0.6,
+      "sssnt": 0.6
+    }
+  },
+  "products": [
+    {
+      "slug": "csf1210ce-td-k9",
+      "model": "CSF1210CE-TD-K9",
+      "family": "CSF1210CE",
+      "form_factor": "Desktop/ Compact",
+      "perf": {
+        "fw_gbps": 6.5,
+        "threat_gbps": 6.0,
+        "ips_gbps": 6.0,
+        "fw_avc_ips_gbps": 6.0
+      },
+      "hardware": {
+        "sku": "CSF1210CE-TD-K9",
+        "desc": "Secure Firewall 1210 Appliance, Compact, Threat Defense",
+        "gpl": 70.0,
+        "lead_time_days": null
+      },
+      "support": {
+        "sku": "CON-SSSNT-CSF1CETD",
+        "gpl": NaN,
+        "lead_time_days": 12
+      },
+      "licenses": {
+        "roots": {
+          "nue": "L-CSF1210CE",
+          "t": "L-CSF1210CE-T",
+          "url": "L-CSF1210CET-URL",
+          "amp": "L-CSF1210CET-AMP",
+          "tc": "L-CSF1210CET-TC",
+          "tm": "L-CSF1210CET-TM",
+          "tmc": "L-CSF1210CET-TMC"
+        },
+        "prices": {
+          "nue": {},
+          "t": {
+            "1": {
+              "sku": "L-CSF1210CE-T-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-CSF1210CE-T-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-CSF1210CE-T-5Y",
+              "gpl": NaN
+            }
+          },
+          "url": {},
+          "amp": {},
+          "tc": {},
+          "tm": {},
+          "tmc": {}
+        }
+      }
+    },
+    {
+      "slug": "csf1210cp-td-k9",
+      "model": "CSF1210CP-TD-K9",
+      "family": "CSF1210CP",
+      "form_factor": "Desktop/ Compact",
+      "perf": {
+        "fw_gbps": 6.5,
+        "threat_gbps": 6.0,
+        "ips_gbps": 6.0,
+        "fw_avc_ips_gbps": 6.0
+      },
+      "hardware": {
+        "sku": "CSF1210CP-TD-K9",
+        "desc": "Secure Firewall 1210 Appliance, Compact, PoE,Threat Defense",
+        "gpl": 70.0,
+        "lead_time_days": null
+      },
+      "support": {
+        "sku": "CON-SSSNT-CSF1TDK9",
+        "gpl": NaN,
+        "lead_time_days": 12
+      },
+      "licenses": {
+        "roots": {
+          "nue": "L-CSF1210CP",
+          "t": "L-CSF1210CP-T",
+          "url": "L-CSF1210CPT-URL",
+          "amp": "L-CSF1210CPT-AMP",
+          "tc": "L-CSF1210CPT-TC",
+          "tm": "L-CSF1210CPT-TM",
+          "tmc": "L-CSF1210CPT-TMC"
+        },
+        "prices": {
+          "nue": {},
+          "t": {
+            "1": {
+              "sku": "L-CSF1210CP-T-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-CSF1210CP-T-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-CSF1210CP-T-5Y",
+              "gpl": NaN
+            }
+          },
+          "url": {},
+          "amp": {},
+          "tc": {},
+          "tm": {},
+          "tmc": {}
+        }
+      }
+    },
+    {
+      "slug": "csf1220cx-td-k9",
+      "model": "CSF1220CX-TD-K9",
+      "family": "CSF1220CX",
+      "form_factor": "Desktop/ Compact",
+      "perf": {
+        "fw_gbps": 15.0,
+        "threat_gbps": 9.0,
+        "ips_gbps": 9.0,
+        "fw_avc_ips_gbps": 9.0
+      },
+      "hardware": {
+        "sku": "CSF1220CX-TD-K9",
+        "desc": "Secure Firewall 1220 Appliance, Compact, Threat Defense",
+        "gpl": 70.0,
+        "lead_time_days": null
+      },
+      "support": {
+        "sku": "CON-SSSNT-CSF1XTDK",
+        "gpl": NaN,
+        "lead_time_days": 12
+      },
+      "licenses": {
+        "roots": {
+          "nue": "L-CSF1220CX",
+          "t": "L-CSF1220CX-T",
+          "url": "L-CSF1220CX-URL",
+          "amp": "L-CSF1220CX-AMP",
+          "tc": "L-CSF1220CX-TC",
+          "tm": "L-CSF1210CX-TM",
+          "tmc": "L-CSF1210CX-TMC"
+        },
+        "prices": {
+          "nue": {},
+          "t": {
+            "1": {
+              "sku": "L-CSF1220CX-T-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-CSF1220CX-T-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-CSF1220CX-T-5Y",
+              "gpl": NaN
+            }
+          },
+          "url": {
+            "1": {
+              "sku": "L-CSF1220CX-URL-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-CSF1220CX-URL-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-CSF1220CX-URL-5Y",
+              "gpl": NaN
+            }
+          },
+          "amp": {
+            "1": {
+              "sku": "L-CSF1220CX-AMP-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-CSF1220CX-AMP-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-CSF1220CX-AMP-5Y",
+              "gpl": NaN
+            }
+          },
+          "tc": {
+            "1": {
+              "sku": "L-CSF1220CX-TC-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-CSF1220CX-TC-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-CSF1220CX-TC-5Y",
+              "gpl": NaN
+            }
+          },
+          "tm": {},
+          "tmc": {}
+        }
+      }
+    },
+    {
+      "slug": "csf1230-td-k9",
+      "model": "CSF1230-TD-K9",
+      "family": "CSF1230",
+      "form_factor": "nan",
+      "perf": {
+        "fw_gbps": NaN,
+        "threat_gbps": NaN,
+        "ips_gbps": NaN,
+        "fw_avc_ips_gbps": NaN
+      },
+      "hardware": {
+        "sku": "CSF1230-TD-K9",
+        "desc": "nan",
+        "gpl": NaN,
+        "lead_time_days": null
+      },
+      "support": {
+        "sku": "CON-SSSNT-CSF1230T",
+        "gpl": NaN,
+        "lead_time_days": null
+      },
+      "licenses": {
+        "roots": {
+          "nue": "L-CSF1230",
+          "t": "CSF1230-T",
+          "url": "L-CSF1230-URL",
+          "amp": "CSF1230-AMP",
+          "tc": "CSF1230T-TC",
+          "tm": "CSF1230T-TM",
+          "tmc": "CSF1230T-TMC"
+        },
+        "prices": {
+          "nue": {},
+          "t": {},
+          "url": {
+            "1": {
+              "sku": "L-CSF1230-URL-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-CSF1230-URL-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-CSF1230-URL-5Y",
+              "gpl": NaN
+            }
+          },
+          "amp": {},
+          "tc": {},
+          "tm": {},
+          "tmc": {}
+        }
+      }
+    },
+    {
+      "slug": "csf1240-td-k9",
+      "model": "CSF1240-TD-K9",
+      "family": "CSF1240",
+      "form_factor": "nan",
+      "perf": {
+        "fw_gbps": NaN,
+        "threat_gbps": NaN,
+        "ips_gbps": NaN,
+        "fw_avc_ips_gbps": NaN
+      },
+      "hardware": {
+        "sku": "CSF1240-TD-K9",
+        "desc": "nan",
+        "gpl": NaN,
+        "lead_time_days": null
+      },
+      "support": {
+        "sku": "CON-SSSNT-CSF1240T",
+        "gpl": NaN,
+        "lead_time_days": null
+      },
+      "licenses": {
+        "roots": {
+          "nue": "L-CSF1240",
+          "t": "CSF1240-T",
+          "url": "L-CSF1240-URL",
+          "amp": "CSF1240-AMP",
+          "tc": "CSF1240T-TC",
+          "tm": "CSF1240T-TM",
+          "tmc": "CSF1240T-TMC"
+        },
+        "prices": {
+          "nue": {},
+          "t": {},
+          "url": {
+            "1": {
+              "sku": "L-CSF1240-URL-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-CSF1240-URL-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-CSF1240-URL-5Y",
+              "gpl": NaN
+            }
+          },
+          "amp": {},
+          "tc": {},
+          "tm": {},
+          "tmc": {}
+        }
+      }
+    },
+    {
+      "slug": "csf1250-td-k9",
+      "model": "CSF1250-TD-K9",
+      "family": "CSF1250",
+      "form_factor": "nan",
+      "perf": {
+        "fw_gbps": NaN,
+        "threat_gbps": NaN,
+        "ips_gbps": NaN,
+        "fw_avc_ips_gbps": NaN
+      },
+      "hardware": {
+        "sku": "CSF1250-TD-K9",
+        "desc": "nan",
+        "gpl": NaN,
+        "lead_time_days": null
+      },
+      "support": {
+        "sku": "CON-SSSNT-CSF1250T",
+        "gpl": NaN,
+        "lead_time_days": null
+      },
+      "licenses": {
+        "roots": {
+          "nue": "L-CSF1250",
+          "t": "CSF1250-T",
+          "url": "L-CSF1250-URL",
+          "amp": "CSF1250-AMP",
+          "tc": "CSF1250T-TC",
+          "tm": "CSF1250T-TM",
+          "tmc": "CSF1250T-TMC"
+        },
+        "prices": {
+          "nue": {},
+          "t": {},
+          "url": {
+            "1": {
+              "sku": "L-CSF1250-URL-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-CSF1250-URL-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-CSF1250-URL-5Y",
+              "gpl": NaN
+            }
+          },
+          "amp": {},
+          "tc": {},
+          "tm": {},
+          "tmc": {}
+        }
+      }
+    },
+    {
+      "slug": "fpr1010-ngfw-k9",
+      "model": "FPR1010-NGFW-K9",
+      "family": "FPR1010",
+      "form_factor": "nan",
+      "perf": {
+        "fw_gbps": 900.0,
+        "threat_gbps": 890.0,
+        "ips_gbps": 900.0,
+        "fw_avc_ips_gbps": 880.0
+      },
+      "hardware": {
+        "sku": "FPR1010-NGFW-K9",
+        "desc": "Cisco Firepower 1010 NGFW Appliance, Desktop",
+        "gpl": 21.0,
+        "lead_time_days": null
+      },
+      "support": {
+        "sku": "CON-SSSNT-FPR1010N",
+        "gpl": NaN,
+        "lead_time_days": 12
+      },
+      "licenses": {
+        "roots": {
+          "nue": "L-FPR1010T",
+          "t": "L-FPR1010T-T",
+          "url": "L-FPR1010T-URL",
+          "amp": "L-FPR1010T-AMP",
+          "tc": "L-FPR1010T-TC",
+          "tm": "L-FPR1010T-TM",
+          "tmc": "L-FPR1010T-TMC"
+        },
+        "prices": {
+          "nue": {},
+          "t": {
+            "1": {
+              "sku": "L-FPR1010T-T-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR1010T-T-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR1010T-T-5Y",
+              "gpl": NaN
+            }
+          },
+          "url": {
+            "1": {
+              "sku": "L-FPR1010T-URL-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR1010T-URL-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR1010T-URL-5Y",
+              "gpl": NaN
+            }
+          },
+          "amp": {
+            "1": {
+              "sku": "L-FPR1010T-AMP-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR1010T-AMP-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR1010T-AMP-5Y",
+              "gpl": NaN
+            }
+          },
+          "tc": {
+            "1": {
+              "sku": "L-FPR1010T-TC-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR1010T-TC-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR1010T-TC-5Y",
+              "gpl": NaN
+            }
+          },
+          "tm": {
+            "1": {
+              "sku": "L-FPR1010T-TM-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR1010T-TM-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR1010T-TM-5Y",
+              "gpl": NaN
+            }
+          },
+          "tmc": {
+            "1": {
+              "sku": "L-FPR1010T-TMC-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR1010T-TMC-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR1010T-TMC-5Y",
+              "gpl": NaN
+            }
+          }
+        }
+      }
+    },
+    {
+      "slug": "fpr1120-ngfw-k9",
+      "model": "FPR1120-NGFW-K9",
+      "family": "FPR1120",
+      "form_factor": "nan",
+      "perf": {
+        "fw_gbps": 2.6,
+        "threat_gbps": 2.3,
+        "ips_gbps": 2.6,
+        "fw_avc_ips_gbps": 2.3
+      },
+      "hardware": {
+        "sku": "FPR1120-NGFW-K9",
+        "desc": "Cisco Firepower 1120 NGFW Appliance, 1U",
+        "gpl": 21.0,
+        "lead_time_days": null
+      },
+      "support": {
+        "sku": "CON-SSSNT-FRP11209",
+        "gpl": NaN,
+        "lead_time_days": 12
+      },
+      "licenses": {
+        "roots": {
+          "nue": "L-FPR1120T",
+          "t": "L-FPR1120T-T",
+          "url": "L-FPR1120T-URL",
+          "amp": "L-FPR1120T-AMP",
+          "tc": "L-FPR1120T-TC",
+          "tm": "L-FPR1120T-TM",
+          "tmc": "L-FPR1120T-TMC"
+        },
+        "prices": {
+          "nue": {},
+          "t": {
+            "1": {
+              "sku": "L-FPR1120T-T-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR1120T-T-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR1120T-T-5Y",
+              "gpl": NaN
+            }
+          },
+          "url": {
+            "1": {
+              "sku": "L-FPR1120T-URL-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR1120T-URL-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR1120T-URL-5Y",
+              "gpl": NaN
+            }
+          },
+          "amp": {
+            "1": {
+              "sku": "L-FPR1120T-AMP-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR1120T-AMP-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR1120T-AMP-5Y",
+              "gpl": NaN
+            }
+          },
+          "tc": {
+            "1": {
+              "sku": "L-FPR1120T-TC-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR1120T-TC-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR1120T-TC-5Y",
+              "gpl": NaN
+            }
+          },
+          "tm": {
+            "1": {
+              "sku": "L-FPR1120T-TM-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR1120T-TM-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR1120T-TM-5Y",
+              "gpl": NaN
+            }
+          },
+          "tmc": {
+            "1": {
+              "sku": "L-FPR1120T-TMC-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR1120T-TMC-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR1120T-TMC-5Y",
+              "gpl": NaN
+            }
+          }
+        }
+      }
+    },
+    {
+      "slug": "fpr1140-ngfw-k9",
+      "model": "FPR1140-NGFW-K9",
+      "family": "FPR1140",
+      "form_factor": "nan",
+      "perf": {
+        "fw_gbps": 3.5,
+        "threat_gbps": 3.3,
+        "ips_gbps": 3.5,
+        "fw_avc_ips_gbps": 3.3
+      },
+      "hardware": {
+        "sku": "FPR1140-NGFW-K9",
+        "desc": "Cisco Firepower 1140 NGFW Appliance, 1U",
+        "gpl": 21.0,
+        "lead_time_days": null
+      },
+      "support": {
+        "sku": "CON-SSSNT-FR11P40N",
+        "gpl": NaN,
+        "lead_time_days": 12
+      },
+      "licenses": {
+        "roots": {
+          "nue": "L-FPR1140T",
+          "t": "L-FPR1140T-T",
+          "url": "L-FPR1140T-URL",
+          "amp": "L-FPR1140T-AMP",
+          "tc": "L-FPR1140T-TC",
+          "tm": "L-FPR1140T-TM",
+          "tmc": "L-FPR1140T-TMC"
+        },
+        "prices": {
+          "nue": {},
+          "t": {
+            "1": {
+              "sku": "L-FPR1140T-T-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR1140T-T-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR1140T-T-5Y",
+              "gpl": NaN
+            }
+          },
+          "url": {
+            "1": {
+              "sku": "L-FPR1140T-URL-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR1140T-URL-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR1140T-URL-5Y",
+              "gpl": NaN
+            }
+          },
+          "amp": {
+            "1": {
+              "sku": "L-FPR1140T-AMP-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR1140T-AMP-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR1140T-AMP-5Y",
+              "gpl": NaN
+            }
+          },
+          "tc": {
+            "1": {
+              "sku": "L-FPR1140T-TC-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR1140T-TC-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR1140T-TC-5Y",
+              "gpl": NaN
+            }
+          },
+          "tm": {
+            "1": {
+              "sku": "L-FPR1140T-TM-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR1140T-TM-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR1140T-TM-5Y",
+              "gpl": NaN
+            }
+          },
+          "tmc": {
+            "1": {
+              "sku": "L-FPR1140T-TMC-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR1140T-TMC-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR1140T-TMC-5Y",
+              "gpl": NaN
+            }
+          }
+        }
+      }
+    },
+    {
+      "slug": "fpr1150-ngfw-k9",
+      "model": "FPR1150-NGFW-K9",
+      "family": "FPR1150",
+      "form_factor": "nan",
+      "perf": {
+        "fw_gbps": 6.1,
+        "threat_gbps": 5.3,
+        "ips_gbps": 6.1,
+        "fw_avc_ips_gbps": 4.9
+      },
+      "hardware": {
+        "sku": "FPR1150-NGFW-K9",
+        "desc": "Cisco Firepower 1150 NGFW Appliance, 1U",
+        "gpl": 21.0,
+        "lead_time_days": null
+      },
+      "support": {
+        "sku": "CON-SSSNT-FPR1150N",
+        "gpl": NaN,
+        "lead_time_days": 12
+      },
+      "licenses": {
+        "roots": {
+          "nue": "L-FPR1150T",
+          "t": "L-FPR1150T-T",
+          "url": "L-FPR1150T-URL",
+          "amp": "L-FPR1150T-AMP",
+          "tc": "L-FPR1150T-TC",
+          "tm": "L-FPR1150T-TM",
+          "tmc": "L-FPR1150T-TMC"
+        },
+        "prices": {
+          "nue": {},
+          "t": {
+            "1": {
+              "sku": "L-FPR1150T-T-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR1150T-T-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR1150T-T-5Y",
+              "gpl": NaN
+            }
+          },
+          "url": {
+            "1": {
+              "sku": "L-FPR1150T-URL-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR1150T-URL-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR1150T-URL-5Y",
+              "gpl": NaN
+            }
+          },
+          "amp": {
+            "1": {
+              "sku": "L-FPR1150T-AMP-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR1150T-AMP-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR1150T-AMP-5Y",
+              "gpl": NaN
+            }
+          },
+          "tc": {
+            "1": {
+              "sku": "L-FPR1150T-TC-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR1150T-TC-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR1150T-TC-5Y",
+              "gpl": NaN
+            }
+          },
+          "tm": {
+            "1": {
+              "sku": "L-FPR1150T-TM-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR1150T-TM-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR1150T-TM-5Y",
+              "gpl": NaN
+            }
+          },
+          "tmc": {
+            "1": {
+              "sku": "L-FPR1150T-TMC-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR1150T-TMC-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR1150T-TMC-5Y",
+              "gpl": NaN
+            }
+          }
+        }
+      }
+    },
+    {
+      "slug": "fpr3105-ngfw-k9",
+      "model": "FPR3105-NGFW-K9",
+      "family": "FPR3105",
+      "form_factor": "nan",
+      "perf": {
+        "fw_gbps": 10.0,
+        "threat_gbps": 10.0,
+        "ips_gbps": 10.0,
+        "fw_avc_ips_gbps": 10.0
+      },
+      "hardware": {
+        "sku": "FPR3105-NGFW-K9",
+        "desc": "Cisco Secure Firewall 3105 NGFW Appliance, 1U",
+        "gpl": 21.0,
+        "lead_time_days": null
+      },
+      "support": {
+        "sku": "CON-SSSNT-FPR3105N",
+        "gpl": NaN,
+        "lead_time_days": 12
+      },
+      "licenses": {
+        "roots": {
+          "nue": "L-FPR3105T",
+          "t": "L-FPR3105T-T",
+          "url": "L-FPR3105T-URL",
+          "amp": "L-FPR3105T-AMP",
+          "tc": "L-FPR3105T-TC",
+          "tm": "L-FPR3105T-TM",
+          "tmc": "L-FPR3105T-TMC"
+        },
+        "prices": {
+          "nue": {},
+          "t": {
+            "1": {
+              "sku": "L-FPR3105T-T-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR3105T-T-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR3105T-T-5Y",
+              "gpl": NaN
+            }
+          },
+          "url": {
+            "1": {
+              "sku": "L-FPR3105T-URL-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR3105T-URL-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR3105T-URL-5Y",
+              "gpl": NaN
+            }
+          },
+          "amp": {
+            "1": {
+              "sku": "L-FPR3105T-AMP-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR3105T-AMP-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR3105T-AMP-5Y",
+              "gpl": NaN
+            }
+          },
+          "tc": {
+            "1": {
+              "sku": "L-FPR3105T-TC-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR3105T-TC-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR3105T-TC-5Y",
+              "gpl": NaN
+            }
+          },
+          "tm": {
+            "1": {
+              "sku": "L-FPR3105T-TM-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR3105T-TM-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR3105T-TM-5Y",
+              "gpl": NaN
+            }
+          },
+          "tmc": {
+            "1": {
+              "sku": "L-FPR3105T-TMC-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR3105T-TMC-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR3105T-TMC-5Y",
+              "gpl": NaN
+            }
+          }
+        }
+      }
+    },
+    {
+      "slug": "fpr3110-ngfw-k9",
+      "model": "FPR3110-NGFW-K9",
+      "family": "FPR3110",
+      "form_factor": "nan",
+      "perf": {
+        "fw_gbps": 18.0,
+        "threat_gbps": 17.0,
+        "ips_gbps": 17.0,
+        "fw_avc_ips_gbps": 17.0
+      },
+      "hardware": {
+        "sku": "FPR3110-NGFW-K9",
+        "desc": "Cisco Secure Firewall 3110 NGFW Appliance, 1U",
+        "gpl": 21.0,
+        "lead_time_days": null
+      },
+      "support": {
+        "sku": "CON-SSSNT-FPR3110N",
+        "gpl": NaN,
+        "lead_time_days": 12
+      },
+      "licenses": {
+        "roots": {
+          "nue": "L-FPR3110T",
+          "t": "L-FPR3110T-T",
+          "url": "L-FPR3110T-URL",
+          "amp": "L-FPR3110T-AMP",
+          "tc": "L-FPR3110T-TC",
+          "tm": "L-FPR3110T-TM",
+          "tmc": "L-FPR3110T-TMC"
+        },
+        "prices": {
+          "nue": {},
+          "t": {
+            "1": {
+              "sku": "L-FPR3110T-T-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR3110T-T-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR3110T-T-5Y",
+              "gpl": NaN
+            }
+          },
+          "url": {
+            "1": {
+              "sku": "L-FPR3110T-URL-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR3110T-URL-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR3110T-URL-5Y",
+              "gpl": NaN
+            }
+          },
+          "amp": {
+            "1": {
+              "sku": "L-FPR3110T-AMP-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR3110T-AMP-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR3110T-AMP-5Y",
+              "gpl": NaN
+            }
+          },
+          "tc": {
+            "1": {
+              "sku": "L-FPR3110T-TC-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR3110T-TC-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR3110T-TC-5Y",
+              "gpl": NaN
+            }
+          },
+          "tm": {
+            "1": {
+              "sku": "L-FPR3110T-TM-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR3110T-TM-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR3110T-TM-5Y",
+              "gpl": NaN
+            }
+          },
+          "tmc": {
+            "1": {
+              "sku": "L-FPR3110T-TMC-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR3110T-TMC-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR3110T-TMC-5Y",
+              "gpl": NaN
+            }
+          }
+        }
+      }
+    },
+    {
+      "slug": "fpr3120-ngfw-k9",
+      "model": "FPR3120-NGFW-K9",
+      "family": "FPR3120",
+      "form_factor": "nan",
+      "perf": {
+        "fw_gbps": 22.0,
+        "threat_gbps": 21.0,
+        "ips_gbps": 21.0,
+        "fw_avc_ips_gbps": 21.0
+      },
+      "hardware": {
+        "sku": "FPR3120-NGFW-K9",
+        "desc": "Cisco Secure Firewall 3120 NGFW Appliance, 1U",
+        "gpl": 21.0,
+        "lead_time_days": null
+      },
+      "support": {
+        "sku": "CON-SSSNT-FPR3120N",
+        "gpl": NaN,
+        "lead_time_days": 12
+      },
+      "licenses": {
+        "roots": {
+          "nue": "L-FPR3120T",
+          "t": "L-FPR3120T-T",
+          "url": "L-FPR3120T-URL",
+          "amp": "L-FPR3120T-AMP",
+          "tc": "L-FPR3120T-TC",
+          "tm": "L-FPR3120T-TM",
+          "tmc": "L-FPR3120T-TMC"
+        },
+        "prices": {
+          "nue": {},
+          "t": {
+            "1": {
+              "sku": "L-FPR3120T-T-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR3120T-T-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR3120T-T-5Y",
+              "gpl": NaN
+            }
+          },
+          "url": {
+            "1": {
+              "sku": "L-FPR3120T-URL-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR3120T-URL-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR3120T-URL-5Y",
+              "gpl": NaN
+            }
+          },
+          "amp": {
+            "1": {
+              "sku": "L-FPR3120T-AMP-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR3120T-AMP-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR3120T-AMP-5Y",
+              "gpl": NaN
+            }
+          },
+          "tc": {
+            "1": {
+              "sku": "L-FPR3120T-TC-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR3120T-TC-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR3120T-TC-5Y",
+              "gpl": NaN
+            }
+          },
+          "tm": {
+            "1": {
+              "sku": "L-FPR3120T-TM-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR3120T-TM-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR3120T-TM-5Y",
+              "gpl": NaN
+            }
+          },
+          "tmc": {
+            "1": {
+              "sku": "L-FPR3120T-TMC-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR3120T-TMC-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR3120T-TMC-5Y",
+              "gpl": NaN
+            }
+          }
+        }
+      }
+    },
+    {
+      "slug": "fpr3130-ngfw-k9",
+      "model": "FPR3130-NGFW-K9",
+      "family": "FPR3130",
+      "form_factor": "nan",
+      "perf": {
+        "fw_gbps": 42.0,
+        "threat_gbps": 38.0,
+        "ips_gbps": 38.0,
+        "fw_avc_ips_gbps": 38.0
+      },
+      "hardware": {
+        "sku": "FPR3130-NGFW-K9",
+        "desc": "Cisco Secure Firewall 3130 NGFW Appliance, 1U",
+        "gpl": 21.0,
+        "lead_time_days": null
+      },
+      "support": {
+        "sku": "CON-SSSNT-FPR3130N",
+        "gpl": NaN,
+        "lead_time_days": 12
+      },
+      "licenses": {
+        "roots": {
+          "nue": "L-FPR3130T",
+          "t": "L-FPR3130T-T",
+          "url": "L-FPR3130T-URL",
+          "amp": "L-FPR3130T-AMP",
+          "tc": "L-FPR3130T-TC",
+          "tm": "L-FPR3130T-TM",
+          "tmc": "L-FPR3130T-TMC"
+        },
+        "prices": {
+          "nue": {},
+          "t": {
+            "1": {
+              "sku": "L-FPR3130T-T-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR3130T-T-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR3130T-T-5Y",
+              "gpl": NaN
+            }
+          },
+          "url": {
+            "1": {
+              "sku": "L-FPR3130T-URL-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR3130T-URL-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR3130T-URL-5Y",
+              "gpl": NaN
+            }
+          },
+          "amp": {
+            "1": {
+              "sku": "L-FPR3130T-AMP-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR3130T-AMP-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR3130T-AMP-5Y",
+              "gpl": NaN
+            }
+          },
+          "tc": {
+            "1": {
+              "sku": "L-FPR3130T-TC-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR3130T-TC-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR3130T-TC-5Y",
+              "gpl": NaN
+            }
+          },
+          "tm": {
+            "1": {
+              "sku": "L-FPR3130T-TM-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR3130T-TM-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR3130T-TM-5Y",
+              "gpl": NaN
+            }
+          },
+          "tmc": {
+            "1": {
+              "sku": "L-FPR3130T-TMC-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR3130T-TMC-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR3130T-TMC-5Y",
+              "gpl": NaN
+            }
+          }
+        }
+      }
+    },
+    {
+      "slug": "fpr3140-ngfw-k9",
+      "model": "FPR3140-NGFW-K9",
+      "family": "FPR3140",
+      "form_factor": "nan",
+      "perf": {
+        "fw_gbps": 49.0,
+        "threat_gbps": 45.0,
+        "ips_gbps": 45.0,
+        "fw_avc_ips_gbps": 45.0
+      },
+      "hardware": {
+        "sku": "FPR3140-NGFW-K9",
+        "desc": "Cisco Secure Firewall 3140 NGFW Appliance, 1U",
+        "gpl": 21.0,
+        "lead_time_days": null
+      },
+      "support": {
+        "sku": "CON-SSSNT-FPR3140N",
+        "gpl": NaN,
+        "lead_time_days": 12
+      },
+      "licenses": {
+        "roots": {
+          "nue": "L-FPR3140T",
+          "t": "L-FPR3140T-T",
+          "url": "L-FPR3140T-URL",
+          "amp": "L-FPR3140T-AMP",
+          "tc": "L-FPR3140T-TC",
+          "tm": "L-FPR3140T-TM",
+          "tmc": "L-FPR3140T-TMC"
+        },
+        "prices": {
+          "nue": {},
+          "t": {
+            "1": {
+              "sku": "L-FPR3140T-T-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR3140T-T-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR3140T-T-5Y",
+              "gpl": NaN
+            }
+          },
+          "url": {
+            "1": {
+              "sku": "L-FPR3140T-URL-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR3140T-URL-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR3140T-URL-5Y",
+              "gpl": NaN
+            }
+          },
+          "amp": {
+            "1": {
+              "sku": "L-FPR3140T-AMP-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR3140T-AMP-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR3140T-AMP-5Y",
+              "gpl": NaN
+            }
+          },
+          "tc": {
+            "1": {
+              "sku": "L-FPR3140T-TC-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR3140T-TC-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR3140T-TC-5Y",
+              "gpl": NaN
+            }
+          },
+          "tm": {
+            "1": {
+              "sku": "L-FPR3140T-TM-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR3140T-TM-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR3140T-TM-5Y",
+              "gpl": NaN
+            }
+          },
+          "tmc": {
+            "1": {
+              "sku": "L-FPR3140T-TMC-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR3140T-TMC-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR3140T-TMC-5Y",
+              "gpl": NaN
+            }
+          }
+        }
+      }
+    },
+    {
+      "slug": "fpr4215-ngfw-k9",
+      "model": "FPR4215-NGFW-K9",
+      "family": "FPR4215",
+      "form_factor": "nan",
+      "perf": {
+        "fw_gbps": 90.0,
+        "threat_gbps": 65.0,
+        "ips_gbps": 65.0,
+        "fw_avc_ips_gbps": 65.0
+      },
+      "hardware": {
+        "sku": "FPR4215-NGFW-K9",
+        "desc": "Cisco Secure Firewall 4215 NGFW Appliance, 1U, 2xNetMod Bays",
+        "gpl": 21.0,
+        "lead_time_days": null
+      },
+      "support": {
+        "sku": "CON-SSSNT-FPR421NG",
+        "gpl": NaN,
+        "lead_time_days": 12
+      },
+      "licenses": {
+        "roots": {
+          "nue": "L-FPR4215T",
+          "t": "L-FPR4215T-T",
+          "url": "L-FPR4215T-URL",
+          "amp": "L-FPR4215T-AMP",
+          "tc": "L-FPR4215T-TC",
+          "tm": "L-FPR4215T-TM",
+          "tmc": "L-FPR4215T-TMC"
+        },
+        "prices": {
+          "nue": {},
+          "t": {
+            "1": {
+              "sku": "L-FPR4215T-T-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR4215T-T-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR4215T-T-5Y",
+              "gpl": NaN
+            }
+          },
+          "url": {
+            "1": {
+              "sku": "L-FPR4215T-URL-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR4215T-URL-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR4215T-URL-5Y",
+              "gpl": NaN
+            }
+          },
+          "amp": {
+            "1": {
+              "sku": "L-FPR4215T-AMP-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR4215T-AMP-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR4215T-AMP-5Y",
+              "gpl": NaN
+            }
+          },
+          "tc": {
+            "1": {
+              "sku": "L-FPR4215T-TC-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR4215T-TC-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR4215T-TC-5Y",
+              "gpl": NaN
+            }
+          },
+          "tm": {
+            "1": {
+              "sku": "L-FPR4215T-TM-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR4215T-TM-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR4215T-TM-5Y",
+              "gpl": NaN
+            }
+          },
+          "tmc": {
+            "1": {
+              "sku": "L-FPR4215T-TMC-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR4215T-TMC-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR4215T-TMC-5Y",
+              "gpl": NaN
+            }
+          }
+        }
+      }
+    },
+    {
+      "slug": "fpr4225-ngfw-k9",
+      "model": "FPR4225-NGFW-K9",
+      "family": "FPR4225",
+      "form_factor": "nan",
+      "perf": {
+        "fw_gbps": 95.0,
+        "threat_gbps": 80.0,
+        "ips_gbps": 80.0,
+        "fw_avc_ips_gbps": 80.0
+      },
+      "hardware": {
+        "sku": "FPR4225-NGFW-K9",
+        "desc": "Cisco Secure Firewall 4225 NGFW Appliance, 1U, 2xNetMod Bays",
+        "gpl": 21.0,
+        "lead_time_days": null
+      },
+      "support": {
+        "sku": "CON-SSSNT-FPR4225N",
+        "gpl": NaN,
+        "lead_time_days": 12
+      },
+      "licenses": {
+        "roots": {
+          "nue": "L-FPR4225T",
+          "t": "L-FPR4225T-T",
+          "url": "L-FPR4225T-URL",
+          "amp": "L-FPR4225T-AMP",
+          "tc": "L-FPR4225T-TC",
+          "tm": "L-FPR4225T-TM",
+          "tmc": "L-FPR4225T-TMC"
+        },
+        "prices": {
+          "nue": {},
+          "t": {
+            "1": {
+              "sku": "L-FPR4225T-T-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR4225T-T-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR4225T-T-5Y",
+              "gpl": NaN
+            }
+          },
+          "url": {
+            "1": {
+              "sku": "L-FPR4225T-URL-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR4225T-URL-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR4225T-URL-5Y",
+              "gpl": NaN
+            }
+          },
+          "amp": {
+            "1": {
+              "sku": "L-FPR4225T-AMP-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR4225T-AMP-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR4225T-AMP-5Y",
+              "gpl": NaN
+            }
+          },
+          "tc": {
+            "1": {
+              "sku": "L-FPR4225T-TC-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR4225T-TC-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR4225T-TC-5Y",
+              "gpl": NaN
+            }
+          },
+          "tm": {
+            "1": {
+              "sku": "L-FPR4225T-TM-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR4225T-TM-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR4225T-TM-5Y",
+              "gpl": NaN
+            }
+          },
+          "tmc": {
+            "1": {
+              "sku": "L-FPR4225T-TMC-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR4225T-TMC-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR4225T-TMC-5Y",
+              "gpl": NaN
+            }
+          }
+        }
+      }
+    },
+    {
+      "slug": "fpr4245-ngfw-k9",
+      "model": "FPR4245-NGFW-K9",
+      "family": "FPR4245",
+      "form_factor": "nan",
+      "perf": {
+        "fw_gbps": 180.0,
+        "threat_gbps": 140.0,
+        "ips_gbps": 140.0,
+        "fw_avc_ips_gbps": 140.0
+      },
+      "hardware": {
+        "sku": "FPR4245-NGFW-K9",
+        "desc": "Cisco Secure Firewall 4245 NGFW Appliance, 1U, 2xNetMod Bays",
+        "gpl": 21.0,
+        "lead_time_days": null
+      },
+      "support": {
+        "sku": "CON-SSSNT-FPR424NW",
+        "gpl": NaN,
+        "lead_time_days": 12
+      },
+      "licenses": {
+        "roots": {
+          "nue": "L-FPR4245T",
+          "t": "L-FPR4245T-T",
+          "url": "L-FPR4245T-URL",
+          "amp": "L-FPR4245T-AMP",
+          "tc": "L-FPR4245T-TC",
+          "tm": "L-FPR4245T-TM",
+          "tmc": "L-FPR4245T-TMC"
+        },
+        "prices": {
+          "nue": {},
+          "t": {
+            "1": {
+              "sku": "L-FPR4245T-T-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR4245T-T-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR4245T-T-5Y",
+              "gpl": NaN
+            }
+          },
+          "url": {
+            "1": {
+              "sku": "L-FPR4245T-URL-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR4245T-URL-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR4245T-URL-5Y",
+              "gpl": NaN
+            }
+          },
+          "amp": {
+            "1": {
+              "sku": "L-FPR4245T-AMP-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR4245T-AMP-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR4245T-AMP-5Y",
+              "gpl": NaN
+            }
+          },
+          "tc": {
+            "1": {
+              "sku": "L-FPR4245T-TC-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR4245T-TC-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR4245T-TC-5Y",
+              "gpl": NaN
+            }
+          },
+          "tm": {
+            "1": {
+              "sku": "L-FPR4245T-TM-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR4245T-TM-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR4245T-TM-5Y",
+              "gpl": NaN
+            }
+          },
+          "tmc": {
+            "1": {
+              "sku": "L-FPR4245T-TMC-1Y",
+              "gpl": NaN
+            },
+            "3": {
+              "sku": "L-FPR4245T-TMC-3Y",
+              "gpl": NaN
+            },
+            "5": {
+              "sku": "L-FPR4245T-TMC-5Y",
+              "gpl": NaN
+            }
+          }
+        }
+      }
+    }
+  ]
+}
