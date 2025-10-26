@@ -12,7 +12,26 @@ const fmtCurrency = (v) => (v == null ? "-" : new Intl.NumberFormat("fr-FR", { s
 const sanitize = (s) => (s || "").toString().trim().toUpperCase();
 
 function loadJSON(){
-  return fetch("./data/firewalls.json").then(r=>r.json());
+  // Configuration de l'URL de l'API
+  // En développement local, utilisez: http://localhost:3000
+  // En production, remplacez par l'URL de votre serveur
+  const API_URL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+    ? 'http://localhost:3000'
+    : ''; // En production, l'API est sur le même domaine
+
+  return fetch(`${API_URL}/api/firewalls`)
+    .then(r => {
+      if (!r.ok) {
+        throw new Error(`Erreur HTTP: ${r.status}`);
+      }
+      return r.json();
+    })
+    .catch(error => {
+      console.error('Erreur lors du chargement des données:', error);
+      // Fallback vers le fichier JSON local si l'API n'est pas disponible
+      console.log('Tentative de chargement depuis le fichier local...');
+      return fetch("./data/firewalls.json").then(r=>r.json());
+    });
 }
 
 function unique(arr){ return Array.from(new Set(arr)); }
